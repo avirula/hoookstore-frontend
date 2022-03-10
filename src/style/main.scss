@@ -1,0 +1,18 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #B7ADCF;
+}
+.main-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@import './navBar.scss';
+@import './home.scss';
+@import './book.scss';
+@import './add-book.scss';
+@import './login.scss';
+@import './signUp.scss'
